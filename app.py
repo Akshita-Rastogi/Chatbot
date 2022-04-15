@@ -4,15 +4,7 @@ from requests import get
 from bs4 import BeautifulSoup
 import os
 from flask import Flask, render_template, request, jsonify
-import pyttsx3
-import datetime
-import wikipedia
-import webbrowser
-import os
-import time
-import subprocess
-import json
-import requests
+
 
 app = Flask(__name__)
 
